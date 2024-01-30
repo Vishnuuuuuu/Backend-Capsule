@@ -1,4 +1,13 @@
 {
+  "name": "time-capsule",
+  "version": "1.0.0",
+  "description": "Time Capsule Task Scheduler",
+  "main": "capsule-task.js",
+  "scripts": {
+    "start": "node capsule-task.js"
+  },
+
+
   "dependencies": {
     "firebase-admin": "^12.0.0",
     "node-cron": "^3.0.3",
