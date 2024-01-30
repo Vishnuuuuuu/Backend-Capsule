@@ -3,7 +3,7 @@ const cron = require('node-cron');
 const nodemailer = require('nodemailer');
 
 // Initialize Firebase Admin with your project credentials
-const serviceAccount = require('./firebase-adminsdk.json');
+const serviceAccount = require('../firebase-adminsdk.json');
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
   storageBucket: 'fir-reg-auth-time-machine.appspot.com'
